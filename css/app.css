@@ -1,0 +1,102 @@
+#Titulo{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.952);
+
+}
+
+#registro,
+#principal,
+#camara {
+    display: none;
+    background-color: crimson;
+}
+#ingreso{
+    background-color: crimson;
+    text-align: center;
+   
+}
+
+#menu {
+    width: 100%;
+}
+
+#bienvenida {
+    width: 100%;
+    color: #10006b;
+    font-size: 16px;
+}
+
+.btn {
+    background: #0019bd;
+    background-image: -webkit-linear-gradient(top, #0019bd, #0c97ed);
+    background-image: -moz-linear-gradient(top, #0019bd, #0c97ed);
+    background-image: -ms-linear-gradient(top, #0019bd, #0c97ed);
+    background-image: -o-linear-gradient(top, #0019bd, #0c97ed);
+    background-image: linear-gradient(to bottom, #0019bd, #0c97ed);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Georgia;
+    color: #e1ff00;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .errorCampo{
+      border-color: rgb(253, 0, 51);
+      border-width: 2px;
+  }
+
+  .titulo {
+      text-align: center;
+      font-size: 30px;
+      color: rgba(0, 0, 0, 0.952);
+      width: 100%;
+  }
+
+  .menu {
+      width: 0%;
+      position: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgb(253, 207, 0);
+      overflow-x: hidden;
+      padding-top: 60px;
+      transition: 0.5s;
+      z-index: 1;
+  }
+
+  .botonCerrar {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+      color: #e1ff00;
+      text-decoration: none;
+  }
+  .opciones {
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.822);
+      padding-left: 20px;
+  }
+
+  .inputget{
+      display: none;
+      /*visibilitu: hidden; */
+  }
+
+  .container-photo{
+      width: 100%;
+      height: auto;
+      background-color: darkblue;
+      margin-bottom: 3px;
+      text-align: center;
+  }
+
+  .photo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }

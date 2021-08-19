@@ -20,9 +20,10 @@ window.onload = function() {
     photo = document.getElementById("photo");
     camera = document.getElementById("camera");
     open = document.getElementById("open");
-    localStorage.setItem("login", 1);
+    /*localStorage.setItem("login", 1);
     localStorage.setItem("nombre", "Enrique");
     localStorage.setItem("correo", "enrique@gmail.com");
+    */
 
     if (localStorage.getItem("login")!== "1") {
         ingreso.style.display = "block";

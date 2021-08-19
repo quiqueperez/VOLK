@@ -223,7 +223,7 @@ function cerrarSesion () {
     localStorage.removeItem("correo");
     localStorage.setItem("login", 0);
     redactar.style.display = "none";
-    document.getElementById("pincipal").style.display = "none";
+    document.getElementById("principal").style.display = "none";
     document.getElementById("mensajes").style.display = "none";
     document.getElementById("camara").style.display = "none";
     document.getElementById("ingreso").style.display = "block";
